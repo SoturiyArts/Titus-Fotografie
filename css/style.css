@@ -12,11 +12,12 @@ body {
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-h1.page-header {
-    text-align: center;
-    color: blue;
+.page-header{
+    font-size: 3em;
+    color: #3498db !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
 /* NAVBAR */
 .navbar{
     border-radius: 0px;
@@ -45,7 +46,40 @@ header.carousel .fill {
     min-height: 100px;
 }
 
+.icon{
+    margin-right: 10px;
+    max-width: 45px;
+}
+
 /* PORTFOLIO */
 .img-portfolio {
     margin-bottom: 30px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #222;
+    padding: 25px;
+}
+.footer-divider{
+    border-right: 1px solid #333;
+}
+.footer-divider:last-child{
+    border-right: 0px;
+}
+.copyright{
+    border-top: 1px solid #333;
+    background: #222;
+}
+.impressum{
+    margin-top: 15px;
+    color: white;
+}
+.impressum a{
+    text-decoration: none!important;
+    color: white!important;
+}
+.designby{
+    margin-top: -5px;
+    color: white!important;
 }
