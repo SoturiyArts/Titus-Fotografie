@@ -1,0 +1,359 @@
+/* 
+    CUSTOM STYLESHEET
+    Titus Fotografie
+    (C) Copyright 2015
+    by SoturiyARTS
+*/
+
+/* NAVIGATION + LOGO */
+.navbar-default{
+    border-radius: 0px;
+    background-color: #474747;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #22A7F0;
+}
+.navbar{
+    margin-bottom: 0px;
+    border: none;
+}
+.navbar-brand,
+.navbar-nav li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin-left: 1px;
+    background-color: #474747;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    border-right: 1px solid #393939;
+    -webkit-box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+    -moz-box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+    box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    background-color: #525252;
+    color: #ffffff;
+}
+.navbar-brand{
+    padding-right: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+    background-color: #525252;
+    color: #ffffff;
+}
+
+/* SOCIAL ICONS */
+li.twitter a{
+    width: 50px;
+    background-color: #5ea9dd !important;
+    color: #ffffff !important;
+    border-right: none;
+    box-shadow: none;
+    font-size: 1.3em;
+    text-align: center;
+}
+li.facebook a{
+    width: 50px;
+    background-color: #3b5998 !important;
+    color: #ffffff !important;
+    border-right: none;
+    box-shadow: none;
+    font-size: 1.3em;
+    text-align: center;
+}
+li.twitter a:hover,
+li.facebook a:hover{
+    opacity: .8;
+}
+/* /SOCIAL ICONS */
+
+/* TOOGLE BUTTON */
+.navbar-default .navbar-toggle{
+    border: none;
+    background-color: #505050;
+    border-top: 1px solid #707070;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #FFFFFF;
+}
+/* /NAVIGATION + LOGO */
+
+/* HEADER */
+header{
+    min-height: 600px;
+    text-align: center;
+    background-color: #6d6d6d;
+    padding-top: 130px;
+    background-image:url(../img/header_bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.profile-picture{
+    width: 180px;
+    border: 10px solid #ffffff;
+}
+header h2{
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+header p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin-top: 20px;
+}
+/* /HEADER */
+
+/* MAIN CONTENT */
+h2.page-header{
+    font-family: 'Oswald', sans-serif;
+    color: #22A7F0;
+    font-size: 3.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Services */
+.services h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+.services p{
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.service-icon{
+    width: 50px;
+    height: 50px;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+/* /Services */
+
+/* Testimonials */
+.testimonials{
+    background-color: #22A7F0;
+    min-height: 300px;
+}
+.testimonials blockquote {
+    margin-top: 90px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 2em;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    margin-bottom: 20px;
+}
+.testimonials blockquote footer{
+    background: none;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 0.5em;
+}
+/* /Testimonials */
+
+/* Latest Works */
+img.works{
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+    margin-bottom: 40px;
+}
+img.works:hover{
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+/* /Latest Works */
+/* /MAIN CONTENT */
+
+/* FOOTER */
+footer{
+    background-color: #474747;
+}
+/* Social List */
+ul.social-list{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.social-list li{
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+.social-list li:last-child{
+    margin-right: 0;
+}
+.social-list li a i{
+    color: #fff;
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #22A7F0;
+    border-radius: 60px;
+}
+.social-list li a:hover{
+    opacity: 0.8;
+}
+/* /Social List */
+
+/* Link List */
+ul.link-list{
+    margin-top: 50px;
+}
+ul.link-list li{
+    margin-right: 40px;
+}
+ul.link-list li:last-child{
+    margin-right: 0;
+}
+ul.link-list li a{
+    font-family: 'Oswald',sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* /Link List */
+
+/* Impressum List */
+ul.impressum-list{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+ul.impressum-list li{
+    margin-right: 25px;
+}
+ul.impressum-list li:last-child{
+    margin-right: 0px;
+}
+ul.impressum-list li a{
+    text-decoration: none;
+    color: #999;
+}
+/* /Impressum List */
+/* /FOOTER */
+
+/* FOOTER2 */
+.footer2{
+    background-color: #22A7F0;
+}
+.footer2 h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #fff;
+}
+/* /FOOTER2 */
+
+/* ABOUT US - PAGE */
+.about-content{
+    margin-bottom: 50px;
+}
+.about-text p{
+    text-align: justify;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    line-height: 25px;
+    padding: 20px;
+}
+.about-logo img{
+    background-color: #22A7F0;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+hr{
+    width: 85%;
+}
+/* /ABOUT US - PAGE */
+
+/* WORKSHOPS */
+.panel-default>.panel-heading{
+    background-color: #22A7F0;
+}
+.main-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.collapse-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.panel-body.time{
+    background-color: #F5F5F5;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.time h4{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.time p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.panel-body.price{
+    background-color: #F89406;
+}
+.price h4{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.price p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.panel-footer{
+    background-color: #22A7F0;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.panel-footer a{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 2em;
+}
+/* /WORKSHOPS */
+
+
+
+
+@media screen and (max-width: 767px){
+    li.twitter a{
+        width: 100%;
+    }
+    li.facebook a{
+        width: 100%;
+    }
+    .navbar-default .navbar-nav>li>a{
+        width: 100%;
+        border-bottom: 1px solid #3d3d3d;
+    }
+}
+
