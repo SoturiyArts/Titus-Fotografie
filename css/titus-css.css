@@ -281,7 +281,24 @@ hr{
 }
 /* /ABOUT US - PAGE */
 
-/* WORKSHOPS */
+/* PORTFOLIO - PAGE */
+.nav-tabs.nav-justified>li>a{
+    font-family: 'Oswald', sans-serif;
+    color: #555;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #22a7f0;
+}
+.tab-content>.active{
+    padding: 20px;
+}
+div.tab-content img{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+/* /PORTFOLIO - PAGE */
+
+/* WORKSHOPS - PAGE */
 .panel-default>.panel-heading{
     background-color: #22A7F0;
 }
@@ -339,10 +356,38 @@ hr{
     color: #fff;
     font-size: 2em;
 }
-/* /WORKSHOPS */
+/* /WORKSHOPS - PAGE */
 
+/* PRICES */
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
 
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
 
+.period {
+    display: block;
+    font-style: italic;
+}
+/* /PRICES */
+
+/* CONTACT */
+.contact-adresse{
+    padding: 25px;
+}
+form{
+    padding: 25px;
+}
+.karte{
+    padding: 25px;
+}
+/* /CONTACT */
 
 @media screen and (max-width: 767px){
     li.twitter a{
