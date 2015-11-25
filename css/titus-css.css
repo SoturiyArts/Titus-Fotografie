@@ -88,7 +88,16 @@ li.facebook a:hover{
 /* /NAVIGATION + LOGO */
 
 /* HEADER */
-header{
+header.homebg{
+    min-height: 600px;
+    text-align: center;
+    background-color: #6d6d6d;
+    padding-top: 130px;
+    background-image:url(../img/header_bg_test.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+header.aboutbg{
     min-height: 600px;
     text-align: center;
     background-color: #6d6d6d;
